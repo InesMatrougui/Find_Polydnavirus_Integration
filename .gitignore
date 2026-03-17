@@ -6,3 +6,5 @@
 .RDataTmp
 .Rproj.user/
 **/.Rhistory
+data/processed/outputmegablast_ortho_flank.txt
+data/raw/outputblastn_arthro_vs_PDV_ALL_11.txt
