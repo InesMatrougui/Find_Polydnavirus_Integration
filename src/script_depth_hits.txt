@@ -1,0 +1,31 @@
+sp=bacillus_rossius
+SRR_id_long=SRR25700843
+GCA=GCA_032445375.1
+hit_position= hit_posistion.bed
+echo -e "\n download long reads fastq ..."
+fasterq-dump ${SRR_id_long}
+
+
+echo -e "\n download fasta ..."
+base_acc=`echo ${GCA}|awk -F "." '{print $1}'`
+url=`esearch -db assembly -query ${GCA} </dev/null|esummary|xtract -pattern DocumentSummary -element FtpPath_GenBank|grep "$base_acc"`
+dir=`echo ${url}|grep -o 'GC._.*'`
+fname=${url}/${dir}_genomic.fna.gz
+echo "Downloading $acc from $fname"
+## download genome
+wget "$fname" --quiet
+## unzip to ID.fna
+gunzip *.gz*
+
+echo -e "\nRunning minimap2 on $sp ..."
+/opt/bin/minimap2 -a -t 10 genome.fna ${SRR_id_long}.fastq > ${sp}.sam
+/usr/local/bin/samtools view -bS -h ${sp}.sam > ${sp}.bam
+rm ${sp}.sam
+/opt/bin/samtools sort ${sp}.bam > sorted_${sp}.bam
+path_bedtools genomecov -ibam sorted_${sp}_paired.bam \
+                       -g $sp -d > ${sp}_coverage_positions.txt
+
+
+rm ${SRR_id_long}.fastq
+rm *.fna
+

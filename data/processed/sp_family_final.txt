@@ -1,0 +1,153 @@
+Helophorus aquaticus
+Macrosoma heliconiaria
+Dorcus rectus
+Bethylidae
+Hadesia weiratheri
+Alulatettix yunnanensis
+Achrysocharoides butus
+Phymatopus californicus
+Torymus
+Falsomelyris granulata
+Hypocaccus lucidulus
+Diprion
+Holcopogon bubulcellus
+Eupelmus urozonus
+Coleophora cratipennella
+Leptomastix dactylopii
+Cyphonocerus
+Synapion ebeninum
+Stegobium paniceum
+Stenophrixothrix
+Urodontus mesemoides
+Eucosmophora pithecellobiae
+Silvanoprus scuticollis
+Tridrepana flava
+Micrambina
+Manoba major
+Ichneumonidae
+Macrolycus sichuanensis
+Endromis versicolora
+Zopherus
+Parepistaurus lobicercus
+Psyllobora vigintiduopunctata
+Necrobia
+Dryocosmus cerriphilus
+Pristaulacus
+Thyridopteryx ephemeraeformis
+Demonarosa rufotessellata
+Phaeosaces coarctatella
+Saturnia pyri
+Kateretidae
+Ascetoderes
+Megastigmidae
+Zygaenidae
+Alesa amesis
+Phthorimaea operculella
+Lycocerus
+Zethus spinipes
+Stenelmis aritai
+Melanophthalma
+Oecanthus sinensis
+Apatides fortis
+Chalcididae
+Brenthia pavonacella
+Carpophilus antiquus
+Dryinidae
+Diapriinae
+Agapanthia cardui
+Bledius femoralis
+Plutellidae
+Eurytoma brunniventris
+Platygastrinae
+Apantesis virguncula
+Zeuzerinae
+Cupedidae
+Cosmocomoidea triguttata
+Thaumetopoea pityocampa
+Blastobasidae
+Tachysphex yolo
+Tineinae
+Chrysis
+Helicoverpa_armigera
+Grapholita_dimorpha
+Amyelois_transitella
+Helleia_helle
+Bombyx_mori
+Diabrotica_virgifera
+Carposina_sasakii
+Melitaea_cinxia
+Aleiodes_testaceus
+Colias_croceus
+Mimas_tiliae
+Idaea_aversata
+Rhogogaster_chlorosoma
+Tribolium_freemani
+Agrilus_cyanescens
+Athalia_cordata
+Apis_mellifera
+Locusta_migratoria
+Nasonia_vitripennis
+Solenopsis_invicta
+Chilo_suppressalis
+Trypoxylus_dichotomus
+Dendroctonus_frontalis
+Encarsia_formosa
+Clitarchus_hookeri
+Poecilus_cupreus
+Cephus_spinipes
+Dendrolimus_punctatus
+Bacillus_rossius
+Anabrus_simplex
+Andrena_camellia
+Megachile_willughbiella
+Melanotus_villosus
+Tiphia_femorata
+Papilio_bianor
+Emmelina_monodactyla
+Yponomeuta_evonymella
+Erynnis_tages
+Liopterus_haemorrhoidalis
+Xiphydria_camelus
+Ypsolopha_scabrella
+Incurvaria_masculella
+Apoderus_coryli
+Seladonia_tumulorum
+Pyrochroa_serraticornis
+Argyresthia_goedartella
+Dascillus_cervinus
+Macropis_europaea
+Geotrupes_spiniger
+Choreutis_nemorana
+Anaspis_maculata
+Nematopogon_swammerdamellus
+Nicrophorus_investigator
+Endomychus_coccineus
+Telenomus_remus
+Salpingus_planirostris
+Anoplius_nigerrimus
+Bedellia_somnulentella
+Micropterix_aruncella
+Hylaeus_volcanicus
+Mylabris_sibirica
+Alucita_hexadactyla
+Diurnea_fagella
+Glyphipterix_thrasonella
+Pediacus_dermestoides
+Leptopilina_syphax
+Ectoedemia_decentella
+Abia_candens
+Arge_pagana
+Gryllus_bimaculatus
+Timema_cristinae
+Cylas_formicarius
+Orussus_abietinus
+Hyposmocoma_kahamanoa
+Ceratosolen_solmsi
+Trichogramma_dendrolimi
+Leucoptera_coffeella
+Ampulex_compressa
+Rhagophthalmus_giganteus
+Helochares_maculicollis
+Ormyrus_labotus
+Omalisus_fontisbellaquei
+Chalcidoidea_sp.
