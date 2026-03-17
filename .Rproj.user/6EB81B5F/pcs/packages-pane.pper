@@ -1,7 +1,0 @@
-{
-    "installOptions": {
-        "installFromRepository": true,
-        "libraryPath": "C:/Users/Inès Matrougui/AppData/Local/Programs/R/R-4.5.1/library",
-        "installDependencies": true
-    }
-}
