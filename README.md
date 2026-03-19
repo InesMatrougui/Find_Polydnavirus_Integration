@@ -30,7 +30,7 @@ To identify and characterize polydnavirus circle integrations in host genomes by
 ### Required Files
 Place all input files in the `data/raw/` directory:
 
-- `outputblastn_arthro_vs_PDV_ALL_11.txt` - Tabular BLASTN output from genome searches
+- `outputblastn_arthro_vs_PDV_ALL_11.txt` - Tabular BLASTN output from genome searches - 
 **Please note that the `script_blastn_genome_arthro_vs_PDV.sh` can generate the `outputblastn_arthro_vs_PDV_ALL_11.txt`**
 - `HIMcoord.txt` - Coordinates of HIM boundaries in PDV segments
 - `seg_new_HIM.txt` - Coordinates of newly identified HIM boundaries
