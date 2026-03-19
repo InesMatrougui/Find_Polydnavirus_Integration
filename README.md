@@ -1,4 +1,4 @@
-# PDV Integration Analysis in Protostome Genomes
+# PDV Integration Analysis in Protostomian Genomes
 
 ## Overview
 
