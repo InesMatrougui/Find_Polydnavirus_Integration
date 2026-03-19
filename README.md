@@ -82,7 +82,7 @@ project/
 
 ### Steps to take beforehand `[Bash]`
 - Split genome IDs 
-Splits id_genome_protostomia.txt into 8 equal subsets (subset-00.txt … subset-07.txt) using split. This enables parallel BLAST jobs.
+Splits `id_genome_protostomia.txt` into 8 equal subsets (subset-00.txt … subset-07.txt) using split. This enables parallel BLAST jobs.
 - BLAST subsets against PDV
 For each genome accession in a subset:
     Determines whether to use the RefSeq or GenBank FTP path based on the accession prefix (GCF_ → RefSeq, GCA_ → GenBank).
@@ -165,3 +165,8 @@ Extracts 200,000 bp flanking windows around each integration for metaeuk taxonom
 - Filters for inter-species hits where the alignment covers the integration region and extends meaningfully into the flanking contig (>50% flank, >90% hit coverage).
 - Exports orthologous integration coordinates and writes the network graph via `igraph`.
 - Calls `phylogeny_species.R` via `callr` to generate SVG figures.
+
+---
+
+## Notes
+- the script 
