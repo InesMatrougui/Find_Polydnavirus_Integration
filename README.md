@@ -31,7 +31,7 @@ To identify and characterize polydnavirus circle integrations in host genomes by
 Place all input files in the `data/raw/` directory:
 
 - `outputblastn_arthro_vs_PDV_ALL_11.txt` - Tabular BLASTN output from genome searches
-**Please note that the script_blastn_genome_arthro_vs_PDV.sh can generate the outputblastn_arthro_vs_PDV_ALL_11.txt**
+**Please note that the `script_blastn_genome_arthro_vs_PDV.sh` can generate the `outputblastn_arthro_vs_PDV_ALL_11.txt`**
 - `HIMcoord.txt` - Coordinates of HIM boundaries in PDV segments
 - `seg_new_HIM.txt` - Coordinates of newly identified HIM boundaries
 - `Segments.txt` - Names of PDV segments (no header)
@@ -93,7 +93,7 @@ For each genome accession in a subset:
     Deletes the genome FASTA to save disk space.
 All 8 subset jobs run in parallel (one Snakemake job per subset).
 - Concatenate BLAST results
-Concatenates the 8 per-subset BLAST output files into outputblastn_arthro_vs_PDV_ALL_11.txt, which is the input expected by the R analysis.
+Concatenates the 8 per-subset BLAST output files into `outputblastn_arthro_vs_PDV_ALL_11.txt`, which is the input expected by the R analysis.
 
 ### 1. Data Import and Preprocessing `[R]`
 - Load BLASTN results and filter by e-value (< 0.0001) and alignment length (> 164 bp)
