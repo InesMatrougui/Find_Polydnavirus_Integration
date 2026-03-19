@@ -169,4 +169,4 @@ Extracts 200,000 bp flanking windows around each integration for metaeuk taxonom
 ---
 
 ## Notes
-- the script 
+- The script `script_depth_hits.txt` is used to obtain the sequencing depth in flanking regions (300 bp) and in integrations (100 bp)
